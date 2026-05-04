@@ -10,7 +10,7 @@ The application allows users to view available cars, create bookings, track rese
 This project started as a command-line (CLI) application written in core Java.  
 It has been refactored into a Spring Boot REST API with proper layered architecture.
 
-- 🔹 CLI Version: https://github.com/USERNAME/car-booking-cli  
+- 🔹 CLI Version: https://github.com/mirkamol-code/java-car-booking 
 - 🔹 Spring Boot Version: Current Repository  
 
 ### Key Improvements
@@ -91,16 +91,16 @@ Booking status:
 ### Run application
 ```bash
 ./mvnw spring-boot:run
-
+````
 ### 🧪 Running Tests
 Run all tests:
 ./mvnw test
-Test Coverage
+#### Test Coverage
 Service layer unit tests
 Business logic validation
 Booking flow verification
 
-🗄 Database
+### 🗄 Database
 Uses H2 in-memory database.
 H2 Console:
 http://localhost:8080/api/v1/h2-console
